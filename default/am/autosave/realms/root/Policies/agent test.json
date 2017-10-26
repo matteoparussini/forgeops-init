@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "5.5.0",
+    "entityType" : "Policies",
+    "entityId" : "agent test",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "agent test",
+    "name" : "agent test",
+    "active" : true,
+    "description" : "",
+    "resources" : [ "*://*:*/*" ],
+    "applicationName" : "iPlanetAMWebAgentService",
+    "actionValues" : {
+      "POST" : true,
+      "GET" : true
+    },
+    "subject" : {
+      "type" : "NONE"
+    },
+    "resourceTypeUuid" : "76656a38-5f8e-401b-83aa-4ccb74ce88d2",
+    "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
+    "lastModifiedDate" : "2017-10-26T14:47:52.423Z",
+    "createdBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : "2017-10-26T14:47:26.996Z"
+  }
+}
